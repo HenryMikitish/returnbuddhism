@@ -23,7 +23,7 @@ img {
 }
 
 .intro {
-    padding: 50px 0 50px 0px;
+    padding: 2vw 10px 2vw 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,10 @@ img {
 
 .title  {
     height: 100px;
+    font-size: clamp(36px, 4vw, 22px);
     display: flex;
+    align-items: center;
+    padding: 0 0 0 10px;
 }
 
 
@@ -45,7 +48,6 @@ img {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    padding: 0 0 20px 0;
     max-width: 500px;
 }
 
@@ -53,6 +55,11 @@ img {
     display: flex;
     font-size: clamp(16px, 4vw, 22px);
     text-align: left;
+}
+
+.description {
+    background-color: rgb(74, 111, 130);
+    color: rgb(252, 222, 30);
 }
 
 .footer {
