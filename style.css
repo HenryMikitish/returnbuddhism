@@ -11,32 +11,20 @@ body {
     color: white;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-};
-
-.header {
-    height: 30px;
-    background-color:rgb(26, 32, 35);
-}
-
 .intro {
     padding: 2vw 10px 2vw 10px;
-    max-width: 538px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo  {
-    height: 80px;
+    height: 100px;
     display: flex;
 }
 
 .title  {
-    font-size: 2rem;
+    font-size: min(max(32px, 4vw), 50px);
     display: flex;
     flex: 1;
     padding: 0 0 0 10px;
@@ -58,50 +46,25 @@ img {
     
 }
 
-#topic-a {
-    display: flex;
-    flex-direction: column;
-   
-}
-
-#topic-b {
+.tree > * {
     display: flex;
     flex-direction: column;
 }
 
-#topic-c {
-    display: flex;
-    flex-direction: column;
+#atheism-desc {font-size: .8em}
+
+#logic-desc {font-size: .8em}
+
+#happiness-desc {font-size: .8em}
+
+#theism-desc {font-size: .8em}
+
+#conbuddha-desc {font-size: .8em;
 }
-
-#topic-d {
-    display: flex;
-    flex-direction: column;
-}
-
-#topic-e {
-    display: flex;
-    flex-direction: column;
-}
-
-#topic-f {
-    display: flex;
-    flex-direction: column;
-}
-
-#atheism-desc {font-size: .9em}
-
-#logic-desc {font-size: .9em}
-
-#happiness-desc {font-size: .9em}
-
-#theism-desc {font-size: .9em}
-
-#conbuddha-desc {font-size: .9em}
 
 #retro-desc {
     display: flex;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 .color-retro-one {
@@ -120,10 +83,4 @@ img {
 
 .description {
     color: rgb(252, 222, 30);
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    height: 30px;
 }
