@@ -57,8 +57,44 @@ img {
     text-align: left;
 }
 
-.description {
+#topic-a {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#topic-b {
+    display: flex;
+    flex-direction: column;
+}
+
+#topic-c {
+    display: flex;
+    flex-direction: column;
+}
+
+#topic-d {
+    display: flex;
+    flex-direction: column;
+}
+
+#topic-e {
+    display: flex;
+    flex-direction: column;
+}
+
+#topic-f {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
     background-color: rgb(74, 111, 130);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.description {
     color: rgb(252, 222, 30);
 }
 
