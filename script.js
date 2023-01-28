@@ -20,6 +20,7 @@ const conbuddhaDesc = document.querySelector('#conbuddha-desc');
 
 const topicF = document.querySelector('#topic-f');
 const retro = document.querySelector('#retro');
+const retroTwo = document.querySelector('#retro-two');
 const retroDesc = document.querySelector('#retro-desc');
 
 //atheism
@@ -116,8 +117,13 @@ topicE.addEventListener('mouseleave', function() {
 
 retro.addEventListener('mouseover', function() {
     topicF.classList.add('button');
-    retroDesc.textContent = '//A description of Buddhism';
+    retro.classList.add('color-retro-one');
+    retroTwo.classList.add('color-retro-two');
+    retroDesc.textContent = '//';
     retroDesc.classList.add('description');
+    const myImage = new Image (20,20);
+    myImage.src = 'hamster.gif';
+    retroDesc.appendChild(myImage);
 
     $("#topic-f").click(function() {
         window.location = $(this).find("a").attr("href"); 
@@ -128,4 +134,6 @@ retro.addEventListener('mouseover', function() {
 topicF.addEventListener('mouseleave', function() {
     retroDesc.textContent = '';
     topicF.classList.remove('button');
+    retro.classList.remove('color-retro-one');
+    retroTwo.classList.remove('color-retro-two');
 });

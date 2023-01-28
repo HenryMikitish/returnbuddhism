@@ -44,6 +44,7 @@ img {
 
 
 .tree {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -88,9 +89,20 @@ img {
     flex-direction: column;
 }
 
+.color-retro-one {
+    color: rgb(78, 234, 107);
+}
+
+.color-retro-two {
+    color: rgb(234, 78, 161);
+}
+
+#retro-desc {
+    display: flex;
+}
+
 .button {
     background-color: rgb(74, 111, 130);
-    cursor: pointer;
     transition: .4s;
 }
 
