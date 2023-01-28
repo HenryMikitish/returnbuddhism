@@ -24,24 +24,23 @@ img {
 
 .intro {
     padding: 2vw 10px 2vw 10px;
+    max-width: 538px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logo  {
-    height: 100px;
+    height: 80px;
     display: flex;
 }
 
 .title  {
-    height: 100px;
-    font-size: clamp(36px, 4vw, 22px);
+    font-size: 2rem;
     display: flex;
-    align-items: center;
+    flex: 1;
     padding: 0 0 0 10px;
 }
-
 
 .tree {
     cursor: pointer;
@@ -49,13 +48,14 @@ img {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    max-width: 500px;
+    margin: 10px;
 }
 
 .tree div {
     display: flex;
-    font-size: clamp(16px, 4vw, 22px);
+    font-size: min(max(14px, 4vw), 22px);
     text-align: left;
+    
 }
 
 #topic-a {
@@ -89,6 +89,21 @@ img {
     flex-direction: column;
 }
 
+#atheism-desc {font-size: .9em}
+
+#logic-desc {font-size: .9em}
+
+#happiness-desc {font-size: .9em}
+
+#theism-desc {font-size: .9em}
+
+#conbuddha-desc {font-size: .9em}
+
+#retro-desc {
+    display: flex;
+    font-size: .9em;
+}
+
 .color-retro-one {
     color: rgb(78, 234, 107);
 }
@@ -97,13 +112,10 @@ img {
     color: rgb(234, 78, 161);
 }
 
-#retro-desc {
-    display: flex;
-}
-
 .button {
     background-color: rgb(74, 111, 130);
     transition: .4s;
+    transform: scale(1.05);
 }
 
 .description {
