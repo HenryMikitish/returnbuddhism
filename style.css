@@ -66,19 +66,15 @@ body {
     font-size: .8em;
 }
 
-.color-retro-one {
-    color: rgb(29, 241, 90)
+.color-retro {
+    background-image: linear-gradient(to left, violet, indigo, rgb(76, 252, 76), yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
-.color-retro-two {
-    color: rgb(241, 29, 230)
-}
-
-.retro-link .hidden {
-    display: none
-}
-
-.retro-link img {
+.link img {
     height: 18px;
 }
 
