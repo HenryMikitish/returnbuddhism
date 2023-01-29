@@ -55,17 +55,34 @@ body {
     flex-direction: column;
 }
 
-.link img {
-    height: 18px;
-}
-
 .button {
     background-color: rgb(74, 111, 130);
     transition: .4s;
     transform: scale(1.05);
 }
 
-.link .description {
+.tree .description {
+    color: rgb(252, 222, 30);
+    font-size: .8em;
+}
+
+.color-retro-one {
+    color: rgb(29, 241, 90)
+}
+
+.color-retro-two {
+    color: rgb(241, 29, 230)
+}
+
+.retro-link .hidden {
+    display: none
+}
+
+.retro-link img {
+    height: 18px;
+}
+
+.retro-link .description {
     color: rgb(252, 222, 30);
     font-size: .8em;
 }
